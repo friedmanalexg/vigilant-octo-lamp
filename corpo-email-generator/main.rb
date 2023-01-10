@@ -8,11 +8,11 @@ print "Company name?"
 company = gets.chomp
 
 email = ""
-email << name
+email << name.downcase.split.join(".")
 email << "."
-email << lastname
+email << lastname.downcase.split.join(".")
 email << "@"
-email << company
+email << company.downcase.split.join
 email << ".com"
 
 puts email
