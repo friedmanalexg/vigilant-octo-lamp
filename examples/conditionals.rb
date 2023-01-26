@@ -20,3 +20,10 @@ end
 if a > b and b > 0 
     puts "Both conditions are true"
 end
+
+if a < b or b > 0 
+    puts "At least one of these conditions are true, lol"
+end
+
+puts "a is greater than b" if a > b
+
