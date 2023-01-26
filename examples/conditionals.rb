@@ -16,3 +16,7 @@ elsif a != b
         puts "#{a} greater than or equal to #{b}, lol"
     end
 end
+
+if a > b and b > 0 
+    puts "Both conditions are true"
+end
